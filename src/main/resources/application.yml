@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: default # 环境
+server:
+  port: 8888 # 启动端口
+  servlet:
+    context-path: /slipper # 项目路径
+  tomcat:
+    uri-encoding: utf-8 # 编码
+    connection-timeout: 5000ms # 连接超时
+
+config:
+  app-id:
+  app-secret:
+  template-id:
+  wechat-number:
+  birthday:
+  city-code:
+  constellation-key:
